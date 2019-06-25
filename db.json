@@ -1,404 +1,277 @@
 {
-  "characters": [
+  "employees": [
     {
       "id": 1,
-      "name": "Rick Sanchez",
-      "location": "Earth (Replacement Dimension)",
-      "status": "Alive",
-      "species": "Human",
-      "gender": "Male",
-      "origin": "Earth (C-137)",
-      "image": "https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+      "name": "elliot watts",
+      "job": "Bussiness Representative",
+      "area": "Development",
+      "imgSrc": "https://randomuser.me/api/portraits/men/36.jpg",
+      "points": 9
     },
     {
       "id": 2,
-      "name": "Morty Smith",
-      "location": "Earth (Replacement Dimension)",
-      "status": "Alive",
-      "species": "Human",
-      "gender": "Male",
-      "origin": "Earth (C-137)",
-      "image": "https://rickandmortyapi.com/api/character/avatar/2.jpeg"
+      "name": "freddie jenkins",
+      "job": "Bussiness Representative",
+      "area": "Sales",
+      "imgSrc": "https://randomuser.me/api/portraits/men/53.jpg",
+      "points": 9
     },
     {
       "id": 3,
-      "name": "Summer Smith",
-      "location": "Earth (Replacement Dimension)",
-      "status": "Alive",
-      "species": "Human",
-      "gender": "Female",
-      "origin": "Earth (Replacement Dimension)",
-      "image": "https://rickandmortyapi.com/api/character/avatar/3.jpeg"
+      "name": "amelia lavoie",
+      "job": "Bussiness Analist",
+      "area": "Sales",
+      "imgSrc": "https://randomuser.me/api/portraits/women/67.jpg",
+      "points": 7
     },
     {
       "id": 4,
-      "name": "Beth Smith",
-      "location": "Earth (Replacement Dimension)",
-      "status": "Alive",
-      "species": "Human",
-      "gender": "Female",
-      "origin": "Earth (Replacement Dimension)",
-      "image": "https://rickandmortyapi.com/api/character/avatar/4.jpeg"
+      "name": "minea hautala",
+      "job": "Recruiter",
+      "area": "Human Resources",
+      "imgSrc": "https://randomuser.me/api/portraits/women/96.jpg",
+      "points": 1
     },
     {
       "id": 5,
-      "name": "Jerry Smith",
-      "location": "Earth (Replacement Dimension)",
-      "status": "Alive",
-      "species": "Human",
-      "gender": "Male",
-      "origin": "Earth (Replacement Dimension)",
-      "image": "https://rickandmortyapi.com/api/character/avatar/5.jpeg"
+      "name": "felix carroll",
+      "job": "Bussiness Analist",
+      "area": "English",
+      "imgSrc": "https://randomuser.me/api/portraits/men/59.jpg",
+      "points": 8
     },
     {
       "id": 6,
-      "name": "Abadango Cluster Princess",
-      "location": "Abadango",
-      "status": "Alive",
-      "species": "Alien",
-      "gender": "Female",
-      "origin": "Abadango",
-      "image": "https://rickandmortyapi.com/api/character/avatar/6.jpeg"
+      "name": "elmer williams",
+      "job": "Back End Developer",
+      "area": "Marketing",
+      "imgSrc": "https://randomuser.me/api/portraits/men/21.jpg",
+      "points": 4
     },
     {
       "id": 7,
-      "name": "Abradolf Lincler",
-      "location": "Testicle Monster Dimension",
-      "status": "unknown",
-      "species": "Human",
-      "gender": "Male",
-      "origin": "Earth (Replacement Dimension)",
-      "image": "https://rickandmortyapi.com/api/character/avatar/7.jpeg"
+      "name": "mercedes gomez",
+      "job": "Bussiness Representative",
+      "area": "English",
+      "imgSrc": "https://randomuser.me/api/portraits/women/6.jpg",
+      "points": 4
     },
     {
       "id": 8,
-      "name": "Adjudicator Rick",
-      "location": "Citadel of Ricks",
-      "status": "Dead",
-      "species": "Human",
-      "gender": "Male",
-      "origin": "unknown",
-      "image": "https://rickandmortyapi.com/api/character/avatar/8.jpeg"
+      "name": "freja møller",
+      "job": "Back End Developer",
+      "area": "Marketing",
+      "imgSrc": "https://randomuser.me/api/portraits/women/54.jpg",
+      "points": 4
     },
     {
       "id": 9,
-      "name": "Agency Director",
-      "location": "Earth (Replacement Dimension)",
-      "status": "Dead",
-      "species": "Human",
-      "gender": "Male",
-      "origin": "Earth (Replacement Dimension)",
-      "image": "https://rickandmortyapi.com/api/character/avatar/9.jpeg"
+      "name": "veera huhta",
+      "job": "Bussiness Representative",
+      "area": "Sales",
+      "imgSrc": "https://randomuser.me/api/portraits/women/79.jpg",
+      "points": 8
     },
     {
       "id": 10,
-      "name": "Alan Rails",
-      "location": "Worldender's lair",
-      "status": "Dead",
-      "species": "Human",
-      "gender": "Male",
-      "origin": "unknown",
-      "image": "https://rickandmortyapi.com/api/character/avatar/10.jpeg"
+      "name": "Adrian Serna",
+      "job": "Recruiter",
+      "area": "Sales",
+      "imgSrc": "https://randomuser.me/api/portraits/men/39.jpg",
+      "points": 8
     },
     {
       "id": 11,
-      "name": "Albert Einstein",
-      "location": "Earth (Replacement Dimension)",
-      "status": "Dead",
-      "species": "Human",
-      "gender": "Male",
-      "origin": "Earth (C-137)",
-      "image": "https://rickandmortyapi.com/api/character/avatar/11.jpeg"
+      "name": "kurt hernandez",
+      "job": "Full Stack Developer",
+      "area": "Human Resources",
+      "imgSrc": "https://randomuser.me/api/portraits/men/34.jpg",
+      "points": 5
     },
     {
       "id": 12,
-      "name": "Alexander",
-      "location": "Anatomy Park",
-      "status": "Dead",
-      "species": "Human",
-      "gender": "Male",
-      "origin": "Earth (C-137)",
-      "image": "https://rickandmortyapi.com/api/character/avatar/12.jpeg"
+      "name": "yoëlla balfoort",
+      "job": "QA",
+      "area": "Sales",
+      "imgSrc": "https://randomuser.me/api/portraits/women/8.jpg",
+      "points": 5
     },
     {
       "id": 13,
-      "name": "Alien Googah",
-      "location": "Earth (Replacement Dimension)",
-      "status": "unknown",
-      "species": "Alien",
-      "gender": "unknown",
-      "origin": "unknown",
-      "image": "https://rickandmortyapi.com/api/character/avatar/13.jpeg"
+      "name": "fortunato nunes",
+      "job": "Operations Manager",
+      "area": "Sales",
+      "imgSrc": "https://randomuser.me/api/portraits/men/65.jpg",
+      "points": 0
     },
     {
       "id": 14,
-      "name": "Alien Morty",
-      "location": "Citadel of Ricks",
-      "status": "unknown",
-      "species": "Alien",
-      "gender": "Male",
-      "origin": "unknown",
-      "image": "https://rickandmortyapi.com/api/character/avatar/14.jpeg"
+      "name": "anthony kelly",
+      "job": "Full Stack Developer",
+      "area": "Marketing",
+      "imgSrc": "https://randomuser.me/api/portraits/men/62.jpg",
+      "points": 9
     },
     {
       "id": 15,
-      "name": "Alien Rick",
-      "location": "Citadel of Ricks",
-      "status": "unknown",
-      "species": "Alien",
-      "gender": "Male",
-      "origin": "unknown",
-      "image": "https://rickandmortyapi.com/api/character/avatar/15.jpeg"
+      "name": "gloria schweizer",
+      "job": "Operations Manager",
+      "area": "Sales",
+      "imgSrc": "https://randomuser.me/api/portraits/women/44.jpg",
+      "points": 1
+    }
+  ],
+  "prizes": [
+    {
+      "id": 1,
+      "name": "Play Station game",
+      "points": 1,
+      "imgSrc": "https://top-gun-lab-images.s3-sa-east-1.amazonaws.com/steam.png",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis iusto voluptas earum maiores quisquam ipsum"
+    },
+    {
+      "id": 2,
+      "name": "Spa day",
+      "points": 1,
+      "imgSrc": "https://top-gun-lab-images.s3-sa-east-1.amazonaws.com/spa.png",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis iusto voluptas earum maiores quisquam ipsum"
+    },
+    {
+      "id": 3,
+      "name": "Earbugs",
+      "points": 3,
+      "imgSrc": "https://top-gun-lab-images.s3-sa-east-1.amazonaws.com/earbugs.png",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis iusto voluptas earum maiores quisquam ipsum"
+    },
+    {
+      "id": 4,
+      "name": "Hotel night",
+      "points": 3,
+      "imgSrc": "https://top-gun-lab-images.s3-sa-east-1.amazonaws.com/hotel.png",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis iusto voluptas earum maiores quisquam ipsum"
+    },
+    {
+      "id": 5,
+      "name": "Kindle",
+      "points": 5,
+      "imgSrc": "https://top-gun-lab-images.s3-sa-east-1.amazonaws.com/kindle.png",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis iusto voluptas earum maiores quisquam ipsum"
+    },
+    {
+      "id": 6,
+      "name": "Phone",
+      "points": 8,
+      "imgSrc": "https://top-gun-lab-images.s3-sa-east-1.amazonaws.com/phone.png",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis iusto voluptas earum maiores quisquam ipsum"
+    },
+    {
+      "id": 7,
+      "name": "Watch",
+      "points": 8,
+      "imgSrc": "https://top-gun-lab-images.s3-sa-east-1.amazonaws.com/watch.png",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis iusto voluptas earum maiores quisquam ipsum"
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1,
+      "name": "Teamniversary (1)",
+      "points": 2
+    },
+    {
+      "id": 2,
+      "name": "Teamniversary (2)",
+      "points": 3
+    },
+    {
+      "id": 3,
+      "name": "Teamniversary (3)",
+      "points": 4
+    },
+    {
+      "id": 4,
+      "name": "Teamniversary (5+)",
+      "points": 8
+    },
+    {
+      "id": 5,
+      "name": "Teamniversary (10+)",
+      "points": 20
+    },
+    {
+      "id": 6,
+      "name": "Team Promotion",
+      "points": 4
+    },
+    {
+      "id": 7,
+      "name": "Lead Top Gun Lab training (per class)",
+      "points": 1
+    },
+    {
+      "id": 8,
+      "name": "Lead Internal Training (Tech/Team Talks)",
+      "points": 1
+    },
+    {
+      "id": 9,
+      "name": "Recruitment Support (per precess)",
+      "points": 1
+    },
+    {
+      "id": 10,
+      "name": "Client Kudos",
+      "points": 1
+    },
+    {
+      "id": 11,
+      "name": "Teammates Kudos",
+      "points": 1
+    },
+    {
+      "id": 12,
+      "name": "Team Award",
+      "points": 2
+    },
+    {
+      "id": 13,
+      "name": "English Level Achievement",
+      "points": 2
+    },
+    {
+      "id": 14,
+      "name": "Certification Achievement",
+      "points": 2
+    },
+    {
+      "id": 15,
+      "name": "Speaking in external conferences and meet ups (per event)",
+      "points": 4
     },
     {
       "id": 16,
-      "name": "Amish Cyborg",
-      "location": "Earth (Replacement Dimension)",
-      "status": "Dead",
-      "species": "Alien",
-      "gender": "Male",
-      "origin": "unknown",
-      "image": "https://rickandmortyapi.com/api/character/avatar/16.jpeg"
+      "name": "Representing the company in external activities and contests (per event)",
+      "points": 1
     },
     {
       "id": 17,
-      "name": "Annie",
-      "location": "Anatomy Park",
-      "status": "Alive",
-      "species": "Human",
-      "gender": "Female",
-      "origin": "Earth (C-137)",
-      "image": "https://rickandmortyapi.com/api/character/avatar/17.jpeg"
+      "name": "Pre-sales participation",
+      "points": 2
     },
     {
       "id": 18,
-      "name": "Antenna Morty",
-      "location": "Citadel of Ricks",
-      "status": "Alive",
-      "species": "Human",
-      "gender": "Male",
-      "origin": "unknown",
-      "image": "https://rickandmortyapi.com/api/character/avatar/18.jpeg"
+      "name": "Mentoring New commers (per new customer)",
+      "points": 2
     },
     {
       "id": 19,
-      "name": "Antenna Rick",
-      "location": "unknown",
-      "status": "unknown",
-      "species": "Human",
-      "gender": "Male",
-      "origin": "unknown",
-      "image": "https://rickandmortyapi.com/api/character/avatar/19.jpeg"
+      "name": "Social Media Participation (post)",
+      "points": 1
     },
     {
       "id": 20,
-      "name": "Ants in my Eyes Johnson",
-      "location": "Interdimensional Cable",
-      "status": "unknown",
-      "species": "Human",
-      "gender": "Male",
-      "origin": "unknown",
-      "image": "https://rickandmortyapi.com/api/character/avatar/20.jpeg"
-    },
-    {
-      "id": 21,
-      "name": "Aqua Morty",
-      "location": "Citadel of Ricks",
-      "status": "unknown",
-      "species": "Humanoid",
-      "gender": "Male",
-      "origin": "unknown",
-      "image": "https://rickandmortyapi.com/api/character/avatar/21.jpeg"
-    },
-    {
-      "id": 22,
-      "name": "Aqua Rick",
-      "location": "Citadel of Ricks",
-      "status": "unknown",
-      "species": "Humanoid",
-      "gender": "Male",
-      "origin": "unknown",
-      "image": "https://rickandmortyapi.com/api/character/avatar/22.jpeg"
-    },
-    {
-      "id": 23,
-      "name": "Arcade Alien",
-      "location": "Immortality Field Resort",
-      "status": "unknown",
-      "species": "Alien",
-      "gender": "Male",
-      "origin": "unknown",
-      "image": "https://rickandmortyapi.com/api/character/avatar/23.jpeg"
-    },
-    {
-      "id": 24,
-      "name": "Armagheadon",
-      "location": "Signus 5 Expanse",
-      "status": "Alive",
-      "species": "Alien",
-      "gender": "Male",
-      "origin": "Signus 5 Expanse",
-      "image": "https://rickandmortyapi.com/api/character/avatar/24.jpeg"
-    },
-    {
-      "id": 25,
-      "name": "Armothy",
-      "location": "Post-Apocalyptic Earth",
-      "status": "Dead",
-      "species": "unknown",
-      "gender": "Male",
-      "origin": "Post-Apocalyptic Earth",
-      "image": "https://rickandmortyapi.com/api/character/avatar/25.jpeg"
-    },
-    {
-      "id": 26,
-      "name": "Arthricia",
-      "location": "Purge Planet",
-      "status": "Alive",
-      "species": "Alien",
-      "gender": "Female",
-      "origin": "Purge Planet",
-      "image": "https://rickandmortyapi.com/api/character/avatar/26.jpeg"
-    },
-    {
-      "id": 27,
-      "name": "Artist Morty",
-      "location": "Citadel of Ricks",
-      "status": "Alive",
-      "species": "Human",
-      "gender": "Male",
-      "origin": "unknown",
-      "image": "https://rickandmortyapi.com/api/character/avatar/27.jpeg"
-    },
-    {
-      "id": 28,
-      "name": "Attila Starwar",
-      "location": "Interdimensional Cable",
-      "status": "Alive",
-      "species": "Human",
-      "gender": "Male",
-      "origin": "unknown",
-      "image": "https://rickandmortyapi.com/api/character/avatar/28.jpeg"
-    },
-    {
-      "id": 29,
-      "name": "Baby Legs",
-      "location": "Interdimensional Cable",
-      "status": "Alive",
-      "species": "Human",
-      "gender": "Male",
-      "origin": "unknown",
-      "image": "https://rickandmortyapi.com/api/character/avatar/29.jpeg"
-    },
-    {
-      "id": 30,
-      "name": "Baby Poopybutthole",
-      "location": "unknown",
-      "status": "Alive",
-      "species": "Poopybutthole",
-      "gender": "Male",
-      "origin": "unknown",
-      "image": "https://rickandmortyapi.com/api/character/avatar/30.jpeg"
-    },
-    {
-      "id": 31,
-      "name": "Baby Wizard",
-      "location": "Earth (Replacement Dimension)",
-      "status": "Dead",
-      "species": "Alien",
-      "gender": "Male",
-      "origin": "unknown",
-      "image": "https://rickandmortyapi.com/api/character/avatar/31.jpeg"
-    },
-    {
-      "id": 32,
-      "name": "Bearded Lady",
-      "location": "Earth (Replacement Dimension)",
-      "status": "Dead",
-      "species": "Alien",
-      "gender": "Female",
-      "origin": "unknown",
-      "image": "https://rickandmortyapi.com/api/character/avatar/32.jpeg"
-    },
-    {
-      "id": 33,
-      "name": "Beebo",
-      "location": "Venzenulon 7",
-      "status": "Dead",
-      "species": "Alien",
-      "gender": "Male",
-      "origin": "Venzenulon 7",
-      "image": "https://rickandmortyapi.com/api/character/avatar/33.jpeg"
-    },
-    {
-      "id": 34,
-      "name": "Benjamin",
-      "location": "Interdimensional Cable",
-      "status": "Alive",
-      "species": "Poopybutthole",
-      "gender": "Male",
-      "origin": "unknown",
-      "image": "https://rickandmortyapi.com/api/character/avatar/34.jpeg"
-    },
-    {
-      "id": 35,
-      "name": "Bepisian",
-      "location": "Bepis 9",
-      "status": "Alive",
-      "species": "Alien",
-      "gender": "unknown",
-      "origin": "Bepis 9",
-      "image": "https://rickandmortyapi.com/api/character/avatar/35.jpeg"
-    },
-    {
-      "id": 36,
-      "name": "Beta-Seven",
-      "location": "unknown",
-      "status": "Alive",
-      "species": "Alien",
-      "gender": "unknown",
-      "origin": "unknown",
-      "image": "https://rickandmortyapi.com/api/character/avatar/36.jpeg"
-    },
-    {
-      "id": 37,
-      "name": "Beth Sanchez",
-      "location": "Earth (C-500A)",
-      "status": "Alive",
-      "species": "Human",
-      "gender": "Female",
-      "origin": "Earth (C-500A)",
-      "image": "https://rickandmortyapi.com/api/character/avatar/37.jpeg"
-    },
-    {
-      "id": 38,
-      "name": "Beth Smith",
-      "location": "Earth (C-137)",
-      "status": "Alive",
-      "species": "Human",
-      "gender": "Female",
-      "origin": "Earth (C-137)",
-      "image": "https://rickandmortyapi.com/api/character/avatar/38.jpeg"
-    },
-    {
-      "id": 39,
-      "name": "Beth Smith",
-      "location": "Earth (Evil Rick's Target Dimension)",
-      "status": "Alive",
-      "species": "Human",
-      "gender": "Female",
-      "origin": "Earth (Evil Rick's Target Dimension)",
-      "image": "https://rickandmortyapi.com/api/character/avatar/39.jpeg"
-    },
-    {
-      "id": 40,
-      "name": "Beth's Mytholog",
-      "location": "Nuptia 4",
-      "status": "Dead",
-      "species": "Mytholog",
-      "gender": "Female",
-      "origin": "Nuptia 4",
-      "image": "https://rickandmortyapi.com/api/character/avatar/40.jpeg"
+      "name": "Social Media Participation (written content)",
+      "points": 2
     }
   ]
 }

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import axios from 'axios';
 import { BASE_LOCAL_ENDPOINT } from "../constants";
-import { StyledHeader } from "../components/Home";
 
 const StyledProfile = styled.div`
     text-align: center;
@@ -29,14 +28,13 @@ class CharacterDetails extends Component {
     constructor(props) {
         super(props);
         this.state = {
+            
             characterInfo: {
-                gender: "",
-                image: "",
-                location: "",
                 name: "",
-                origin: "",
-                species: "",
-                status: ""
+                points: "",
+                imgSrc: "",
+                description: ""
+               
             },
             error: ''
         }
@@ -44,7 +42,7 @@ class CharacterDetails extends Component {
 
     componentDidMount = () => {
         const { match: { params: { id } } } = this.props;
-        axios.get(`${BASE_LOCAL_ENDPOINT}/characters/${id}`)
+        axios.get(`${BASE_LOCAL_ENDPOINT}/prizes/${id}`)
         .then(response => {
             this.setState({
                 characterInfo: response.data,
@@ -61,27 +59,22 @@ class CharacterDetails extends Component {
     render() { 
         const {
             characterInfo: {
-                gender,
-                image,
-                location,
                 name,
-                origin,
-                species,
-                status
+                points,
+                imgSrc,
+                description
             }
         } = this.state;
 
         return ( 
             <StyledProfile>
-                <StyledHeader><h1>{name}</h1></StyledHeader>
+                
                 <StyledCharacter>
-                    <StyledProfilePic src={image} alt="Character"/>
+                    <StyledProfilePic src={imgSrc} alt="Prize"/>
                     <StyledCharacterInfo>
-                        <p><b>Gender: </b>{gender}</p>
-                        <p><b>Location: </b>{location}</p>
-                        <p><b>Origin: </b>{origin}</p>
-                        <p><b>Species: </b>{species}</p>
-                        <p><b>Status: </b>{status}</p>
+                        <p><b>Name : </b>{name}</p>
+                        <p><b>Points: </b>{points}</p>
+                        <p><b>Description: </b>{description}</p>
                     </StyledCharacterInfo>
                 </StyledCharacter>
             </StyledProfile>

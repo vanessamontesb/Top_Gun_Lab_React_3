@@ -1,23 +1,20 @@
 import React from 'react';
 import CharacterList from '../containers/CharacterList';
 import styled from 'styled-components';
+import AppNavbar from '../containers/navBarContainer';
+import Filter from './filter'
 
 const StyledAppContainer = styled.div`
     text-align: center;
 `;
 
-export const StyledHeader = styled.header`
-    background-color: #222;
-    color: #fff;
-    overflow: auto;
-`;
+
 
 function Home() {
   return (
       <StyledAppContainer>
-        <StyledHeader>
-          <h1>Rick and Morty Multiverse</h1>
-        </StyledHeader>
+        <AppNavbar/>
+        <Filter/>
         <CharacterList />
       </StyledAppContainer>
   );

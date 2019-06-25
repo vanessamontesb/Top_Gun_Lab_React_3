@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 import { BASE_LOCAL_ENDPOINT } from "../constants";
-import Character from '../components/Character';
+import Prize from '../components/Character';
 
 const StyledCharacterForm = styled.form`
     display: grid;
@@ -32,7 +32,7 @@ const StyledCharacterForm = styled.form`
 
     button {
         cursor: pointer;
-        background: transparent;
+        background:  #253746;
         border: 1px solid #fff;
         font-size: 16px;
         color: #fff;
@@ -66,25 +66,22 @@ const StyledCharacterInput = styled.input`
 const StyledFormContainer = styled.div`
     color: #fff;
     padding: 10px;
-    background-color: #555;
+    background-color: #d5d5d5;
 `;
 
 class CharacterList extends Component {
     constructor(props) {
         super(props);
         this.state = { 
-            characters: {
+            prizes: {
                 content: [],
                 error: false
             },
             newCharacterFrom: {
-                name: "",
-                location: "",
-                status: "",
-                species: "",
-                gender: "",
-                origin: "",
-                image: ""
+                name:"",
+                points:"",
+                imgSrc:"",
+                description:""
             },
             createCharacterError: false
          }
@@ -95,10 +92,10 @@ class CharacterList extends Component {
     }
 
     getCharacters = () => {
-        axios.get(`${BASE_LOCAL_ENDPOINT}/characters`)
+        axios.get(`${BASE_LOCAL_ENDPOINT}/prizes`)
         .then(response => {
             this.setState({
-                characters: {
+                prizes: {
                     content: response.data,
                     error: ''
                 },
@@ -107,7 +104,7 @@ class CharacterList extends Component {
         })
         .catch(error => {
             this.setState({
-                characters: {
+                prizes: {
                     error: error.message
                 }
             })
@@ -117,25 +114,21 @@ class CharacterList extends Component {
     createCharacter = (e) => {
         e.preventDefault();
         const {
+
             newCharacterFrom: {
                 name,
-                location,
-                status,
-                species,
-                gender,
-                origin,
-                image
+                points,
+                imgSrc,
+                description
+                
             }
         } = this.state;
         
-        axios.post(`${BASE_LOCAL_ENDPOINT}/characters`, {
+        axios.post(`${BASE_LOCAL_ENDPOINT}/prizes`, {
             name,
-            location,
-            status,
-            species,
-            gender,
-            origin,
-            image
+            points,
+            imgSrc,
+            description,
         }, {
             headers: { "Content-Type": "application/json"}
         })
@@ -166,15 +159,12 @@ class CharacterList extends Component {
     render() { 
         const {
             createCharacterError,
-            characters: { content, error },
+            prizes: { content, error },
             newCharacterFrom: {
                 name,
-                location,
-                status,
-                species,
-                gender,
-                origin,
-                image
+                points,
+                imgSrc,
+                description,
             }
         } = this.state;
 
@@ -185,24 +175,22 @@ class CharacterList extends Component {
         return (
             <>  
                 <StyledFormContainer>
-                    <h2>Create Character</h2>
+                    
 
                     {createCharacterError && <p>An error ocurred creating Character</p>}
                     <StyledCharacterForm onSubmit={e => this.createCharacter(e)}>
-                        {this.createTextInput(name, 'name')}
-                        {this.createTextInput(location, 'location')}
-                        {this.createTextInput(status, 'status')}
-                        {this.createTextInput(species, 'species')}
-                        {this.createTextInput(gender, 'gender')}
-                        {this.createTextInput(origin, 'origin')}
-                        {this.createTextInput(image, 'image')}
-                        <button type="submit">Create</button>
+                        {this.createTextInput(name, 'Name')}
+                        {this.createTextInput(points, 'Points')}
+                        {this.createTextInput(imgSrc, 'Image')}
+                        {this.createTextInput(description, 'Description')}
+                       
+                        <button type="submit">Add</button>
                     </StyledCharacterForm>
                 </StyledFormContainer>
                 <StyledCharactersGrid>
-                    {content.map(({ id, image, name }) => (
-                        <Link key={id} to={`/characters/${id}`}>
-                            <Character imgSrc={image} name={name}/>
+                    {content.map(({ id, imgSrc, name, points }) => (
+                        <Link key={id} to={`/prizes/${id}`}>
+                            <Prize imgSrc={imgSrc} name={name} points={points}/>
                         </Link>
                     ))}
                 </StyledCharactersGrid>
